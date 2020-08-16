@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" Liste de choses à faire"</string>
+    <string name="enter" translatable="false">" Entrer"</string>
+    <string name="emptyEntry" translatable="false">Entrez du texte</string>
+</resources>

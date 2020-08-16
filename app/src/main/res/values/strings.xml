@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">To Do List</string>
+    <string name="enter" translatable="false">Enter</string>
+    <string name="emptyEntry" translatable="false">Enter some text!</string>
+</resources>

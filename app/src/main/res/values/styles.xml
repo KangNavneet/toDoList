@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name='android:editTextStyle'>@style/EditText</item>
+        <item name='android:buttonStyle'>@style/Button</item>
+        <item name="background">@color/white</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name='android:editTextStyle'>@style/EditText</item>
+        <item name='android:buttonStyle'>@style/Button</item>
+        <item name="background">@color/black</item>
+    </style>
+
+    <style name='EditText' parent='@android:style/Widget.EditText'>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name='android:textStyle'>italic</item>
+        <item name='android:textSize'>24sp</item>
+    </style>
+
+    <style name='Button' parent='@android:style/Widget.Button'>
+        <item name="backgroundTint">@color/darkColor</item>
+        <item name='android:textColor'>@color/secondaryText</item>
+        <item name='android:textSize'>18dp</item>
+        <item name='android:width'>50dp</item>
+    </style>
+
+
+
+
+    <style name="Table">
+        <item name="android:padding">15dp</item>
+    </style>
+    <style name="TableRow">
+        <item name='android:paddingBottom'>10dp</item>
+    </style>
+
+</resources>

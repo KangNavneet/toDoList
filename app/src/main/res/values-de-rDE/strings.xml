@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" Aufgabenliste"</string>
+    <string name="enter" translatable="false">" Eingeben"</string>
+    <string name="emptyEntry" translatable="false">
+Geben Sie einen Text ein</string>
+</resources>
