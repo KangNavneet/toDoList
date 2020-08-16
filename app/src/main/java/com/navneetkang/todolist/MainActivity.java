@@ -15,6 +15,8 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import static android.media.CamcorderProfile.get;
+
 public class MainActivity extends AppCompatActivity {
 
     ArrayList<String> al=new ArrayList<>();
@@ -37,15 +39,12 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
         lv1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Toast.makeText(getApplicationContext(),al.get(i)+"",Toast.LENGTH_LONG).show();
 
-                Toast.makeText(getApplicationContext(),i,Toast.LENGTH_LONG).show();
-                Log.d("mymessage",i+"");
             }
-            
         });
 
 
@@ -80,7 +79,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void adapter()
     {
-        ArrayAdapter<String> myad = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, al);
+       ArrayAdapter<String> myad = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, al);
+        //ArrayAdapter<String> myad = new ArrayAdapter<>(this, R.layout.singlerow,R.id.tv111, al);
         lv1.setAdapter(myad);
         entry.setText("");
 
